@@ -26,3 +26,4 @@ use Illuminate\Http\Request;
 // });
 
 Route::post('register', 'Api\AuthController@register');
+Route::post('registertime', 'Api\TimezoneController@register');
